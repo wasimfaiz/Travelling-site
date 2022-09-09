@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    padding: 30px 50px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+#main #nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav i{
+    display: none;
+}
+
+#nav h4{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#nav #links a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 15px;
+    color: black;
+}
+
+#main #sec1{
+     position: relative;
+     margin-top: 5%;
+     left: 50%;
+     transform: translate(-85%,0%);
+     width: 50%;
+     height: 70vh;
+    background-image: url(https://c1.wallpaperflare.com/preview/417/517/317/man-male-rocks-sea.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sec1 #rgt{
+    position: relative;
+    padding: 40px;
+    right:-90%;
+    top: 50%;
+    transform: translate(0,-50%);
+    height: 50vh;
+    width: 85%;
+    background-color: #ec8a00be;
+}
+
+#rgt h1{
+    font-weight: 300;
+    line-height: 70px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 70px;
+}
+
+#rgt p{
+    color: white;
+    font-size: 12px;
+    margin: 30px 0;
+}
+
+#rgt button{
+    font-size: 13px;
+    padding: 10px 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#sec1 #blft{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    bottom: -40px;
+    left: -40px;
+    height: 80px;
+    width: 80px;
+    background-color: #EC8800;
+    color: white;
+}
+
+#sec1 #top{
+    position: absolute;
+    right: 50px;
+    top: -40px;
+    height: 40px;
+    width: 50%;
+    background-color: #EC8800;
+    z-index: -1;
+}
+
+#main #icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* background-color: #EC8800; */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#icons .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: #EC8800;
+    color: white;
+}
+
+.icon h4{
+    font-weight: 500;
+    margin: 20px;
+}
+
+.icon p{
+   text-align: center;
+   font-size: 14px;
+}
+
+#main2{
+    border-top: 0.1px solid transparent;
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+#main2 #content{
+    border-top: 0.1px solid transparent;
+    position: relative;
+    width: 75%;
+    min-height: 100vh;
+    /* background-color: brown; */
+    margin-left: 16%;
+}
+
+#content #imgs{
+    position: relative;
+    margin-top: 10%;
+    height: 50vh;
+    width: 100%;
+    background-color: #EC8800;
+}
+
+#content #imgs h1{
+    position: absolute;
+    color: white;
+    z-index: 11;
+    font-weight: 400;
+    font-size: 60px;
+    right: 60px;
+    top: 20px;
+    letter-spacing: 4px;
+}
+
+#imgs #img1{
+    position: absolute;
+    top: -15%;
+    left: 10%;
+    height: 350px;
+    z-index: 9;
+}
+
+#imgs #img2{
+    position: absolute;
+    right: 15%;
+    bottom: -70%;
+    height: 400px;
+}
+
+#imgs #img3{
+    position: absolute;
+    left:-10%;
+    bottom: -20%;
+    height: 400px;
+    z-index: 9;
+}
+
+#content #txt1{
+    position: relative;
+    height: 30vh;
+    width: 50%;
+    background-color: transparent;
+    border-left: 15px solid #EC8800;
+    border-top: 1px solid transparent;
+    z-index: 10;
+    overflow: hidden;
+}
+
+#content #txt1 h2{
+    font-size: 35px;
+    margin-top: 80px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#content #para1{
+    position: relative;
+    border-top: 1px solid transparent;
+    height: 20vh;
+    width: 80%;
+    background-color: white;
+}
+
+#content #para1 p{
+   font-size: 15px;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+
+#para1 button{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #EC8800;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #EC8800;
+    
+}
+
+#main3{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid transparent;
+}
+
+#main3 #heading{
+    position: absolute;
+    font-size: 144px;
+    top: 10px;
+    left: 10%;
+    color: #CDCED0;
+}
+
+#main3 #para2{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 40%;
+    border-left: 2px solid #EC8800;
+    overflow: hidden;
+}
+
+#para2 p{
+    font-size: 15px;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+
+#para2 h3{
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #EC8800;
+}
+
+#main3 #imgs{
+    position: relative;
+    width: 65%;
+    margin-left: 25%;
+    margin-top: 150px;
+}
+
+ #imgs img{
+    height: 400px;
+}
+
+#imgs #img5{
+    position: absolute;
+    height: 400px;
+    bottom: -20%;
+    left: 25%;
+    z-index: 10;
+}
+
+#imgs #img6{
+    position: absolute;
+    height: 400px;
+    bottom: 10%;
+    right: 0%;
+}
+
+#imgs  #patti{
+    position: absolute;
+    bottom: -15%;
+    left: 75%;
+    height: 45vh ;
+    width: 50px;
+    background-color: #EC8800;
+}
+
+#main3 #para3{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 60%;
+}
+
+#para3 #plft{
+    margin-right: 10%;
+    width: 40%;
+}
+
+#plft h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#plft p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#para3 #prgt{
+    /* margin-left: 20px; */
+    width: 50%;
+}
+
+#prgt p{
+    font-size: 15px;
+}
+
+#main4{
+    border-top: 1px solid transparent;
+    min-height: 100vh;
+}
+
+#main4 #para4{
+    position: relative;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-left: 2px solid #EC8800;
+}
+
+#para4 h4{
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 50px;
+    color: #EC8800;
+}
+
+#para4 p{
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#para4 #logo{
+    position: absolute;
+    height: 400px;
+    right: -100%;
+    top: -40%;
+}
+
+#main4 #content2{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+#content2 #lft{
+    width: 20%; 
+    height: 95%;
+    margin-top: 5%;
+    /* background-color: brown; */
+}
+
+#lft p{
+    font-size: 13px;
+}
+
+#lft #img8{
+    position: relative;
+    height: 450px;
+    margin-top: 20px;
+    z-index: 9;
+
+}
+
+#content2 #mid{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    background-color: #EC8800;
+}
+
+#mid #img7{
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 540px;
+}
+
+#content2 #rgt{
+    width: 20%; 
+    height: 90%;
+    margin-top: 5%;
+    /* background-color: brown; */
+}
+
+#content2 #rgt p{
+    color:black;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#rgt #img9{
+    position: relative;
+    height: 250px;
+    margin-left: -100px;
+}
+
+#main4 #contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* height: 30vh; */
+}
+
+#contact #logo2{
+    height: 100px;
+}
+
+#contact #icons{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    font-size: 25px;
+}
+
+#contact #line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+#contact p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 500px){
+    #main{
+        padding: 20px 20px;
+        min-height: 58vh;
+    }
+
+    #main #nav #links{
+        display: none;
+    }
+
+    #main #nav h4{
+        font-size: 15px;
+    }
+
+    #nav i{
+        display: initial;
+        margin-right: 10px;
+    }
+
+    #main #sec1{
+        transform: initial;
+        left: 7%;
+        width: 50%;
+        height: 18vh;
+        margin-top: 19%;
+    }
+
+    #sec1 #rgt{
+        padding: 13px;
+        height: 15vh;
+    }
+
+    #rgt h1{
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+
+    #rgt p{
+        font-size: 5px;
+        margin: 6px 0;
+    }
+
+    #rgt button{
+        font-size: 4px;
+        padding: 4px 8px;
+    }
+
+    #sec1 #blft{
+        height: 35px;
+        width: 35px;
+        font-size: 19px;
+        bottom: -18px;
+        left: -18px;
+    }
+
+    #sec1 #top{
+        height: 24px;
+        width: 40%;
+        top: -24px;
+        right: 25px;
+    }
+
+    #main #icons{
+        margin-top: 40px;
+    }
+
+    .icon i{
+         height: 40px;
+         width: 40px;
+         font-size: 13px;
+    }
+
+    .icon h4{
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .icon p{
+        font-size: 6px;
+    }
+
+    #main2 {
+        min-height: 25vh;
+    }
+
+    #main2 #content{
+        margin: 0 auto;
+        width: 100%;
+        min-height: 25vh;
+    }
+
+    #content #imgs{
+        margin: 0 auto;
+        height: 12vh;
+        width: 70%;
+    }
+
+    #content #imgs h1{
+        font-size: 9px;
+        right: 12px;
+        top: 5px;
+        letter-spacing: 3px;
+    }
+
+    #imgs #img1{
+        top: -15%;
+        left: 12%;
+        height: 94px;
+    }
+
+    #imgs #img2{
+        right: 6%;
+        bottom: -86%;
+        height: 120px;
+    }
+
+    #imgs #img3{
+        height: 110px;
+        bottom: -20%;
+        left: -7%;
+    }
+
+    #content #txt1{
+        height: 8vh;
+        width: 50%;
+        margin-left: 19%;
+        border-left: 4px solid #EC8800;
+    }
+
+    #content #txt1 h2{
+        font-size: 9px;
+        margin-top: 29px;
+        line-height: 11px;
+        margin-left: 16px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    #content #para1{
+        height: 6vh;
+        width: 50%;
+        margin-left: 19%;
+    }
+
+    #content #para1 p{
+        font-size: 5px;
+        margin-top: 4px;
+        margin-left: 19px;
+    }
+
+    #content #para1 button{
+        margin-top: 0px;
+        margin-left: 18px;
+        font-size: 8px;
+        border-bottom: 1px solid #EC8800;
+    }
+
+    #main3{
+        min-height: 58vh;
+    }
+
+    #main3 #heading{
+        font-size: 36px;
+        margin-top: 24px;
+    }
+
+    #main3 #para2{
+        margin-top: 30px;
+        width: 45%;
+        border-left: 1px solid #EC8800;
+    }
+
+    #para2 h3{
+        margin-left: 8px;
+        font-size: 15px;
+    }
+
+    #para2 p{
+        font-size: 6px;
+        margin: 4px 0;
+        margin-left: 8px;
+    }
+
+    #main3 #imgs{
+        margin-top: 45px;
+        margin-left: 23%;
+    }
+
+    #imgs #img4{
+        height: 120px;
+    }
+
+    #imgs #img5{
+        height: 110px;
+        bottom: -20%;
+    }
+
+    #imgs #img6{
+        height: 120px;
+    }
+
+    #imgs #patti{
+        bottom: -15%;
+        right: 18%;
+        width: 15px;
+        height: 11vh;
+    }
+
+    #main3 #para3{
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    #para3 #plft{
+        margin-right: 10%;
+        width: 40%;
+    }
+
+    #plft h4{
+        font-size: 9px;
+    }
+
+    #plft p{
+        margin-top: 7px;
+        font-size: 7px;
+    }
+
+    #para3 #prgt{
+        width: 58%;
+    }
+
+    #prgt p{
+        font-size: 7px;
+    }
+
+    #main4{
+        min-height: 63vh;
+    }
+
+    #main4 #para4{
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    #para4 h4{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #para4 #logo{
+        height: 135px;
+        top: -14%;
+    }
+
+    #para4 p{
+        font-size: 6px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #main4 #content2{
+       margin-top: 65px;
+       height: 22vh;
+    }
+
+    #lft p{
+       font-size: 4px;
+    }
+
+    #lft #img8{
+        height: 133px;
+        margin-top: 6px;
+    }
+
+    #mid #img7{
+        bottom: -25%;
+        height: 150px;
+    }
+
+    #rgt #img9{
+        height: 63px;
+        margin-left: -26px;
+    }
+
+    #content2  #rgt p{
+        font-size: 4px;
+    }
+
+    #main4 #contact{
+        margin-top: 40px;
+    }
+
+    #contact #logo2{
+        height: 45px;
+    }
+
+    #contact #icons{
+        font-size: 15px;
+        width: 37%;
+        margin-top: 10px;
+    }
+
+    #contact #line{
+        height: 1px;
+    }
+
+    #contact p{
+        font-size: 7px;
+    }
+}
